@@ -280,3 +280,175 @@ height: 100%;
     display: none;
 }
 }
+
+/* first screen */
+
+.first-screen {
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 72px;
+    background-color: #2e2f42;
+    padding-bottom: 72px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    /* background-image:linear-gradient( rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),
+     url(/images/people-office\ 1.jpg); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title {
+
+    /* padding-top: 188px; */
+    margin-bottom: 72px;
+    max-width: 216px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;}
+
+        .title-button {
+            display: block;
+            border: none;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 4px;
+            padding: 16px 32px;
+            min-width: 169px;
+            cursor: pointer;
+            background-color: #4d5ae5;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: #fff;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    
+        .title-button:hover,
+        .title-button:focus {
+            background-color: #404bbf;
+        }
+
+                @media screen and (min-width:768px){
+                .first-screen {
+                        max-width: 768px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        padding-top: 112px;
+                        padding-bottom: 112px;
+                     
+                    }
+                
+                    .title {
+                
+                        /* padding-top: 188px; */
+                        margin-bottom: 36px;
+                        max-width: 496px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        font-weight: 700;
+                        font-size: 56px;
+                        line-height: 1.07;
+                        letter-spacing: 0.02em;
+                        
+                    }
+                }
+
+  @media screen and (min-width:1158px){
+    .first-screen {
+            max-width: 1440px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 188px;
+            padding-bottom: 188px;
+          
+        }
+                .title {
+        
+                    /* padding-top: 188px; */
+                    margin-bottom: 48px;
+                    max-width: 496px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    font-weight: 700;
+                    font-size: 56px;
+                }
+  }
+
+  /* second screen */
+
+  .second-screen {
+      padding: 96px 0 96px;
+      display: flex;
+     flex-direction: column;
+       align-items: center; 
+      justify-content: center;
+      gap: 72px;
+  }
+
+  .title-list {
+      display: flex; 
+       align-items: center;
+      flex-direction: column;
+      gap: 72px; 
+  }
+
+  .item-description {
+      /* width: calc((100% - 216px) / 4); */
+      width: 288px;
+
+  }
+
+   .title-description {
+       margin-bottom: 8px;
+       text-align: center;
+       background-color: #FFFFFF;
+       font-weight: 700;
+       font-size: 36px;
+       line-height: 1.11;
+       letter-spacing: 0.02em;
+       color: #2e2f42;
+
+   }
+   .second-title {
+       text-align: centeraf;
+       /* padding-top: 117px; */
+       margin-bottom: 8px;
+       font-weight: 700;
+       font-size: 36px;
+       line-height: 1.11;
+       letter-spacing: 0.02em;
+       color: #2e2f42;
+   }
+
+  .description-item {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+      text-align: start;
+      padding-bottom: 0px;
+      background-color: #FFFFFF;
+      /* padding-top: 8px; */
+     
+  }
+
+  .item-description-icon {
+    display: none;
+      /* display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #8e8f99;
+      border-radius: 4px;
+      width: 264px;
+      height: 112px;
+      background: #f4f4fd;
+      margin-bottom: 8px;
+      padding: 24px 100px; */
+  }
