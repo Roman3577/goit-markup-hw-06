@@ -1,6 +1,6 @@
-.hidden{
+/* .hidden{
     display: none;
-}
+} */
 
 body {
     font-family: "Roboto", sans-serif;
@@ -265,7 +265,7 @@ height: 100%;
 
 .mobile-menu-nav{
     margin-bottom: auto;
-    
+   
 }
 
 .mobile-menu-close{
@@ -321,10 +321,14 @@ margin-bottom: auto;
 .nav-link-menu:active{
     color: #404bbf;
 }
+.mobile-menu-gap{
+    margin-top: auto;
+}
 
 /* .current {}
 
 .mobile-menu-address {}
+
 
 .contacts-list-menu {}
 
@@ -1114,12 +1118,12 @@ text-align: center;
             }
             .container-footer{
                 column-gap: 24px;
-          
+          padding: 0 108px;
                 align-items: baseline;    
             }
-                        /* foote-form{
-                          
-                        } */
+                        foote-form{
+                         
+                        }
            
             /* .footer-email{
               
@@ -1331,6 +1335,7 @@ text-align: center;
 
 
  .label-agreement {
+    display: flex;
      font-weight: 400;
      font-size: 12px;
      line-height: 1.17;
@@ -1341,6 +1346,7 @@ text-align: center;
 
  .text-agreement {
      display: inline-flex;
+     flex-shrink: 0;
      align-items: center;
      justify-content: center;
      border-radius: 2px;
@@ -1401,8 +1407,14 @@ text-align: center;
  .button-submit:focus {
      background-color: #404bbf;
  }
+ .backdrop.is-open {
+     opacity: 1;
+     visibility: visible;
+     pointer-events: auto;
+ }
      @media screen and (max-width:768px) {
         .modal{
+            padding: 72px 16px 24px 16px;
             width: 288px;
             height: 623px;
         }
