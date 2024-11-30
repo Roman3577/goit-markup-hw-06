@@ -1416,6 +1416,10 @@ text-align: center;
         .modal{
             padding: 72px 16px 24px 16px;
             width: 288px;
-            height: 623px;
+            min-height: 623px;
+        }
+        .button-submit{
+            margin-top: 0;
+            margin-bottom: 0;
         }
      }
