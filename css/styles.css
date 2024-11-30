@@ -1126,13 +1126,12 @@ text-align: center;
             .footer-email{
                 padding-right: 24px;
             }
-                        foote-form{
-                         gap: 24px;
-                        }
+                        
            
             /* .footer-email{
               
             } */
+            
                       
  .footer-social-media-title{
     text-align: start;
@@ -1145,6 +1144,31 @@ text-align: center;
  }
  .footer-email-label-title{
     text-align: start;
+ }
+
+ @media screen and (min-width:1158px){
+    .container-footer {
+       flex-wrap: nowrap;
+       column-gap: 0;
+            display: flex;
+            align-items: baseline;
+        }
+
+    
+                                  .page-footer {
+                                      background-color: #2e2f42;
+                                      padding: 120px 0;
+                                  }
+                                                                  .logo-footer-container {
+                                                                      margin-right: 120px;
+                                                                  }
+.footer-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    justify-content: center;
+}
  }
 
 
